@@ -1,0 +1,17 @@
+{
+    "name": "abualmueid/post-view-count",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "PostViewCount\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abualmueid",
+            "email": "61595430+abualmueid@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
