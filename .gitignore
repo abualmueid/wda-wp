@@ -1,64 +1,64 @@
-# Created by https://www.toptal.com/developers/gitignore/api/wordpress
-# Edit at https://www.toptal.com/developers/gitignore?templates=wordpress
-
 ### WordPress ###
 # Core
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
 
-
 academy/conf
 academy/logs
 academy/app/sql
 academy/app/public/conf
-academy/app/public/wp-admin
-academy/app/public/wp-includes
-academy/app/public/.htaccess
-
 academy/app/public/wp-admin/
-/wp-content/index.php
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/local-xdebuginfo.php
-/readme.html
-/wp-*.php
-/xmlrpc.php
+academy/app/public/wp-content/index.php
+academy/app/public/wp-content/plugins/index.php
+academy/app/public/wp-content/themes/index.php
+academy/app/public/wp-includes/
+academy/app/public/index.php
+academy/app/public/license.txt
+academy/app/public/local-xdebuginfo.php
+academy/app/public/readme.html
+academy/app/public/wp-*.php
+academy/app/public/xmlrpc.php
 
 # Configuration
-wp-config.php
+academy/app/public/wp-config.php
 
 # Example themes
-/wp-content/themes/twenty*/
+academy/app/public/wp-content/themes/twenty*/
 
 # Example plugin
-# /wp-content/plugins/hello.php
+# academy/app/public/wp-content/plugins/hello.php
+academy/app/public/wp-content/plugins/*
+!academy/app/public/wp-content/plugins/custom-columns
+!academy/app/public/wp-content/plugins/custom-post
+!academy/app/public/wp-content/plugins/custom-post-metabox
+!academy/app/public/wp-content/plugins/fantastic-qr-code
+!academy/app/public/wp-content/plugins/custom-post-metabox
+!academy/app/public/wp-content/plugins/our-first-plugin
+!academy/app/public/wp-content/plugins/our-second-plugin
+!academy/app/public/wp-content/plugins/post-view-count
+academy/app/public/wp-content/plugins/post-view-count/vendor
+!academy/app/public/wp-content/plugins/related-posts
+!academy/app/public/wp-content/plugins/shortcode
 
 # Uploads
-/wp-content/uploads/
+academy/app/public/wp-content/uploads/
 
 # Upgrade
-/wp-content/upgrade/
+academy/app/public/wp-content/upgrade/
 
 # Log files
-*.log
+academy/app/public/wp-content/*.log
 
 # htaccess
-/.htaccess
+academy/app/public/.htaccess
 
 # All plugins
 # Note: If you wish to whitelist plugins,
 # uncomment the next line
-/wp-content/plugins/*
-/wp-content/plugins/
+# /wp-content/plugins/
 
 # All themes
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
-
-
-# End of https://www.toptal.com/developers/gitignore/api/wordpress
